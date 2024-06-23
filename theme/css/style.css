@@ -358,7 +358,7 @@ h5.subtitle {
 ----------------------------------*/
 .site-navigation,
 .trans-navigation {
-  padding: 20px 0px;
+  /* padding: 20px 0px; */
 }
 
 .site-navigation .navbar-nav a,
@@ -410,11 +410,11 @@ h5.subtitle {
 }
 
 .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
-  color: #fff;
+  color: #000000;
 }
 
 .trans-navigation {
-  background: transparent;
+  background: #ffffff;
 }
 
 .trans-navigation.header-white {
