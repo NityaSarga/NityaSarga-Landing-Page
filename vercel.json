@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "gulpfile.js",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "theme"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/theme/$1"
+    }
+  ]
+}
