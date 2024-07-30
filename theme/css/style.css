@@ -1069,6 +1069,13 @@ PRICING PAGE
   background: #fff;
 }
 
+.international-clients{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
 /*------------------------------------
   TESTIMONIAL AREA SECTION
 ---------------------------------*/
@@ -1614,7 +1621,7 @@ BLOG SINGLE
 }
 /* Extra small devices (portrait phones, less than 576px)*/
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 375px) and (max-width: 767.98px) {
   /*---------------
      NAVIGATION
     ----------------*/
@@ -1628,12 +1635,9 @@ BLOG SINGLE
     width: 1rem;
   }
   .trans-navigation {
-<<<<<<< HEAD
     background: #232323;
-=======
     background: #ffffff;
     padding: 20px 15px;
->>>>>>> fea68f64b0606eaf643677da5066ee944a84edf3
   }
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
     margin-bottom: 10px;
